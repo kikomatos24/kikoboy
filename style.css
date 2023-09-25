@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url('image.jpg') no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    
+}
+
+
+.header {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+
+.header h1 {
+    color: white;
+}
+
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+
+.left {
+    flex: 1;
+    text-align: center;
+}
+
+
+.circle {
+    border-radius: 90%;
+    width: 400px;
+    height: 400px;
+}
+
+
+.right {
+    flex: 1;
+    padding: 20px;
+    
+    border-radius: 20px;
+}
+
+
+.right p {
+    font-size: 18px;
+}
